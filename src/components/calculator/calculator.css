@@ -1,0 +1,36 @@
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  gap: .4em;
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+.calc-title {
+  color: #ffc61e;
+}
+
+.label {
+  text-align: left;
+  padding-top: .2em;
+  font-weight: lighter;
+  letter-spacing: .6px;
+}
+
+.input {
+  padding: .6em .8em;
+}
+
+.button {
+  margin: 2em;
+  padding: 1em 2em;
+  background-image: linear-gradient(120deg, #41d1ff, #bd34fe);
+}
+
+.button:hover {
+  border-color: #41d1ff;
+}
+
+.card {
+  padding: 2em;
+}
